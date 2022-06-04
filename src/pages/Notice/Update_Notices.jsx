@@ -3,7 +3,7 @@ import axios from 'axios';
 import './Addview.css';
 import {  useParams } from "react-router-dom";
 import Navbar from '../Admin/nav-bar';
-import {Alert} from '../alert/message'; 
+import Alert from '../alert/message'; 
 
 function NoticeEdit() {
 

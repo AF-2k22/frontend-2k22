@@ -4,7 +4,6 @@ import IconButton from '@material-ui/core/IconButton';
 import DeleteIcon from '@material-ui/icons/Delete';
 import CreateIcon from '@material-ui/icons/Create';
 
-import DeleteIcon from '@mui/icons-material/Delete';
 
 import axios from 'axios';
 import './Addview.css';

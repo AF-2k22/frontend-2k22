@@ -3,7 +3,7 @@ import axios from 'axios';
 
 import './../../component/css/Page.css';
 import Navbar from './nav-bar';
-import {Alert} from './../alert/message';
+import Alert from '../alert/message';
 
 import FormGroup from '@mui/material/FormGroup';
 import TextField from '@mui/material/TextField';

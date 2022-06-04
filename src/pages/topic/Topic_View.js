@@ -1,6 +1,6 @@
 import React from 'react';
 import "./Topic.css";
-import {Alert} from '../alert/message'; 
+import Alert from '../alert/message'; 
 import Button from '@mui/material/Button';
 
 import DeleteIcon from '@mui/icons-material/Delete';

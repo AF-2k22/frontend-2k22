@@ -2,7 +2,7 @@ import React from 'react';
 import "./Topic.css";
 import axios from 'axios';
 import Navbar from './../admin/nav-bar';
-import {Alert} from './../alert/message';
+import Alert from './../alert/message';
 
 import Box from '@mui/material/Box';
 import Table from '@mui/material/Table';

@@ -1,7 +1,7 @@
 import React from 'react';
 import axios from 'axios';
 
-import  {Alert} from '../alert/message';
+import  Alert from '../alert/message';
 import Navbar from './nav-bar';
 import './../../component/css/Page.css';
 

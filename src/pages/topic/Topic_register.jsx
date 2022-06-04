@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 import './Topic.css'
-import {Alert} from '../alert/message'; 
+import Alert from '../alert/message';
 
 import Navbar from '../student/nav-bar';
 import Footer from "../footer/Footer";

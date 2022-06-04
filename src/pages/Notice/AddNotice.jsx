@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import './Addview.css';
 import axios from "axios";
 import Navbar from '../Admin/nav-bar';
-import {Alert} from '../alert/message'; 
+import Alert from '../alert/message'; 
 
 import{ MDBInput, MDBBtn } from "mdbreact";
 

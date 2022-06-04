@@ -2,7 +2,7 @@ import React from 'react';
 import axios from 'axios';
 
 import './../../component/css/Page.css'
-import {Alert} from './../alert/message';
+import Alert from './../alert/message';
 import Navbar from './nav-bar';
 
 import FormGroup from '@mui/material/FormGroup';

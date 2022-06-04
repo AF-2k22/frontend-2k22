@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "parcel index.html",
-    "test": "react-scripts test"
+    "start": "parcel ./public/index.html",
+    "test": "react-scripts test",
+    "build": "react-scripts build"
   },
   "keywords": [],
   "author": "",
@@ -18,11 +19,9 @@
     "@mui/icons-material": "^5.8.0",
     "@mui/material": "^5.8.0",
     "@mui/styled-engine-sc": "^5.8.0",
-    "@testing-library/jest-dom": "^5.16.4",
-    "@testing-library/react": "^13.3.0",
-    "@testing-library/user-event": "^14.2.0",
     "axios": "^0.27.2",
     "emoji-picker-react": "^3.5.1",
+    "firebase": "^9.8.2",
     "joi": "^17.6.0",
     "mdbreact": "^5.2.0",
     "parcel": "^2.0.0-rc.0",
@@ -40,6 +39,20 @@
   },
   "devDependencies": {
     "@parcel/transformer-image": "^2.0.0-rc.0",
-    "@parcel/transformer-sass": "^2.0.0-rc.0"
+    "@parcel/transformer-sass": "^2.0.0-rc.0",
+    "buffer": "^6.0.3",
+    "process": "^0.11.10"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
