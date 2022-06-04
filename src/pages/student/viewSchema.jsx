@@ -1,10 +1,7 @@
 import React from "react";
 import axios from 'axios';
-
 import Navbar from './nav-bar';
 import './student.css';
-
-
 import Accordion from '@mui/material/Accordion';
 import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
@@ -14,13 +11,11 @@ import Grid from '@mui/material/Grid';
 import DownloadOutlinedIcon from '@mui/icons-material/DownloadOutlined';
 import ListItemButton from '@mui/material/ListItemButton';
 import ListItemIcon from '@mui/material/ListItemIcon';
-import ListItemText from '@mui/material/ListItemText';
 import Button from '@mui/material/Button';
 import Stack from '@mui/material/Stack';
-import AssignmentRoundedIcon from '@mui/icons-material/AssignmentRounded';
 import Table from '@mui/material/Table';
 import TableBody from '@mui/material/TableBody';
-import TableCell, { tableCellClasses } from '@mui/material/TableCell';
+import TableCell from '@mui/material/TableCell';
 import TableContainer from '@mui/material/TableContainer';
 import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
@@ -29,8 +24,6 @@ import ListItemText from '@mui/material/ListItemText';
 import AssignmentRoundedIcon from '@mui/icons-material/AssignmentRounded';
 import Modal from '@mui/material/Modal';
 import Box from '@mui/material/Box';
-import ListItemIcon from '@mui/material/ListItemIcon';
-import Button from '@mui/material/Button';
 import Snackbar from '@mui/material/Snackbar';
 import Alert from '@mui/material/Alert';
 

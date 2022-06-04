@@ -1,18 +1,6 @@
 import React from 'react'
 import { useNavigate } from "react-router-dom";
-// import {  FaStar } from 'react-icons/fa';
-import React from "react";
-import ReactDOM from "react-dom";
-import { withStyles } from "@material-ui/core/styles";
-import Avatar from "@material-ui/core/Avatar";
 
-
-import CardMedia from "@material-ui/core/CardMedia";
-import CardContent from "@material-ui/core/CardContent";
-import Divider from "@material-ui/core/Divider";
-import Typography from "@material-ui/core/Typography";
-import { Card } from '@mui/material';
-import { color } from '@mui/system';
 
 const PackageSmallView = (props) => {
 

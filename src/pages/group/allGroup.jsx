@@ -4,7 +4,6 @@ import Navbar from '../student/nav-bar';
 import SmallView from "./Groupsmaller"
 import './Allgroup.scss'
 import Box from '@mui/material/Box';
-import Navbar from '../student/nav-bar';
 
 
 

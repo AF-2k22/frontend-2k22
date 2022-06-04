@@ -2,8 +2,6 @@ import React, { Component } from 'react'
 import Box from '@mui/material/Box';
 import Navbar from './nav-bar';
 import axios from 'axios';
-import Card from '@material-ui/core/Card';
-import CardHeader from '@material-ui/core/CardHeader';
 import { Grid } from "@material-ui/core";
 import './student.css';
 import { Button, CardContent } from "@mui/material";
@@ -12,10 +10,8 @@ import Image2 from "./c1.jpg";
 import Image3 from "./c2.jpg";
 import Image4 from "./c3.jpg";
 import Image5 from "./c4.jpg";
-import { width } from "@mui/system";
  import Footer from './Footer.jsx';
  import SmallView from "../Notice/Notices_view";
- import { Box } from '@mui/system';
  import { Container } from '@mui/system';
  import { Typography } from '@mui/material';
  

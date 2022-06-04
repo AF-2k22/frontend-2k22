@@ -13,23 +13,22 @@ import Grid from '@mui/material/Grid';
 import DownloadOutlinedIcon from '@mui/icons-material/DownloadOutlined';
 import ListItemButton from '@mui/material/ListItemButton';
 import ListItemIcon from '@mui/material/ListItemIcon';
-import ListItemText from '@mui/material/ListItemText';
+
 import Button from '@mui/material/Button';
 import Stack from '@mui/material/Stack';
 import Modal from '@mui/material/Modal';
-import Button from '@mui/material/Button';
+
 import Box from '@mui/material/Box';
 import Snackbar from '@mui/material/Snackbar';
 import Alert from '@mui/material/Alert';
 import AssignmentRoundedIcon from '@mui/icons-material/AssignmentRounded';
 import Table from '@mui/material/Table';
 import TableBody from '@mui/material/TableBody';
-import TableCell, { tableCellClasses } from '@mui/material/TableCell';
+import TableCell from '@mui/material/TableCell';
 import TableContainer from '@mui/material/TableContainer';
 import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
-import DownloadOutlinedIcon from '@mui/icons-material/DownloadOutlined';
 import ListItemText from '@mui/material/ListItemText';
 
 export default class ViewAssignmentSubmission extends React.Component {

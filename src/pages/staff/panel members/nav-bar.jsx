@@ -14,13 +14,12 @@ import Divider from '@mui/material/Divider';
 import ChevronLeftIcon from '@mui/icons-material/ChevronLeft';
 import ListItem from '@mui/material/ListItem';
 import ListItemButton from '@mui/material/ListItemButton';
-import ListItemIcon from '@mui/material/ListItemIcon';
+
 import ListItemText from '@mui/material/ListItemText';
 import Drawer from '@mui/material/Drawer';
 import List from '@mui/material/List';
 import ListItemIcon from '@mui/material/ListItemIcon';
 import Logout from '@mui/icons-material/Logout';
-import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import ArticleRoundedIcon from '@mui/icons-material/ArticleRounded';
 import HomeIcon from '@mui/icons-material/Home';
 import TopicIcon from '@mui/icons-material/Topic';
